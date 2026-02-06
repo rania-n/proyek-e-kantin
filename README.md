@@ -179,6 +179,6 @@ VIII. Penutup
 Project e-Kantin Sekolah ini diharapkan dapat menjadi sarana pembelajaran kolaboratif antar jurusan serta menghasilkan produk digital yang bermanfaat bagi lingkungan sekolah. Melalui project ini, siswa dapat mengembangkan keterampilan teknis, kreativitas, dan kerja tim sesuai dengan kebutuhan dunia industri.
 
 X RPL 2
-- Rania Nurillah (24)
-- Sevia Dwi Novitasari (27)
-- Skandinavia (30)
+1. Rania Nurillah (24)
+2. Sevia Dwi Novitasari (27)
+3. Skandinavia (30)
