@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daftar Siswa - e-Kantin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="box">
+    <h2>Daftar</h2>
+    <form action="regisS.php" method="POST">
+        <label>Nama Lengkap</label>
+        <input type="text" name="nama_lengkap" required>
+        <label>Kelas</label>
+        <input type="text" name="kelas" required>
+        <label>Email</label>
+        <input type="email" name="email" required>
+
+        <label>Password</label>
+        <input type="password"
+               name="password"
+               placeholder="Minimal 8 karakter"
+               minlength="8"
+               required>
+        <label>Konfirmasi Password</label>
+        <input type="password"
+               name="confirm"
+               placeholder="Ulangi password"
+               minlength="8"
+               required>
+        <button type="submit">Daftar</button>
+    </form>
+
+    <p>Sudah punya akun? <a href="loginS.html">Login</a></p>
+</div>
+</body>
+</html>
