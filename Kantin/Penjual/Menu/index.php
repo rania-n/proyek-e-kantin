@@ -84,8 +84,8 @@ if(isset($_POST['simpan'])) {
             <p>Rp <?php echo number_format($baris['harga'],0,',','.') ?></p>
 
             <a href="edit-menu.php?id=<?php echo $baris['id_menu'] ?>">Edit</a>
+            
             <?php if($baris['status']=='aktif') { ?>
-
             <a href="status-menu.php?id=<?= $baris['id_menu'] ?>&status=nonaktif">Nonaktif</a>
             <?php } else { ?>
             <a href="status-menu.php?id=<?= $baris['id_menu'] ?>&status=aktif">Aktifkan</a>
