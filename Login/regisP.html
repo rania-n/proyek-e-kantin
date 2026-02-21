@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daftar Penjual - e-Kantin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="box">
+    <h2>Daftar</h2>
+
+    <form action="regisP.php" method="POST">
+
+        <label>Nama Lengkap</label>
+        <input type="text" name="nama_lengkap" required>
+
+        <label>Email</label>
+        <input type="email" name="email" required>
+
+        <label>Password</label>
+        <input type="password"
+               name="password"
+               placeholder="Minimal 8 karakter"
+               minlength="8"
+               required>
+
+        <label>Konfirmasi Password</label>
+        <input type="password"
+               name="confirm"
+               placeholder="Ulangi password"
+               minlength="8"
+               required>
+
+        <button type="submit">Daftar</button>
+    </form>
+
+    <p>Sudah punya akun? <a href="loginP.html">Login</a></p>
+</div>
+
+</body>
+</html>
